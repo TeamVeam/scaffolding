@@ -1,7 +1,7 @@
 {
-  "name": "@layerframers/scaffolding-nextjs",
-  "version": "1.1.6",
-  "description": "Templates that aid in the development of NextJS applications.",
+  "name": "@veam/scaffolding",
+  "version": "1.1.0",
+  "description": "Templates that aid in the development of applications.",
   "main": "index.js",
   "scripts": {
     "build": "node_modules/.bin/babel ./src/index.js -o ./lib/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/layerframe/scaffolding-nextjs.git"
+    "url": "git+https://github.com/TeamVeam/scaffolding.git"
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
@@ -27,15 +27,15 @@
     "templates",
     "nextjs"
   ],
-  "author": "Rob Sawyer (rob@layerframe.com)",
+  "author": "Rob Sawyer (rob@veam.me)",
   "license": "MIT",
   "bin": {
     "foldit": "./foldit.js"
   },
   "bugs": {
-    "url": "https://github.com/layerframe/scaffolding-nextjs/issues"
+    "url": "https://github.com/TeamVeam/scaffolding/issues"
   },
-  "homepage": "https://github.com/layerframe/scaffolding-nextjs#readme",
+  "homepage": "https://github.com/TeamVeam/scaffolding#readme",
   "dependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.5",
@@ -55,6 +55,6 @@
   "devDependencies": {
     "auto-changelog": "^2.2.0",
     "github-release-from-changelog": "^2.1.1",
-    "release-it": "^13.6.6"
+    "release-it": "^13.7.1"
   }
 }
