@@ -33,7 +33,7 @@ program
 program.parse(process.argv);
 
 console.log(colors.blue('\n-------------------------------'));
-console.log(colors.blue('--- NextJS Scaffold Details ---'));
+console.log(colors.blue('------ Scaffold Details ------'));
 console.log(colors.blue('-------------------------------\n'));
 
 if (program.debug) console.log(program.opts());
