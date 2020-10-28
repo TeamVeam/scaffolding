@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "veam/scaffolding",
-  "version": "2.0.0",
-=======
   "name": "@veam/scaffolding",
   "version": "2.0.1",
->>>>>>> dab43a10aeb5f9dd1620064cee81c1224816161e
   "private": false,
   "description": "Templates that aid in the development of applications.",
   "main": "index.js",
