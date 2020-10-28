@@ -1,7 +1,7 @@
 {
   "name": "@veam/scaffolding",
   "private": false,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Templates that aid in the development of applications.",
   "main": "index.js",
   "scripts": {
