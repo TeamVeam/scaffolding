@@ -1,5 +1,13 @@
 {
+  "git": {
+    "push": false,
+    "tagName": "v${version}",
+    "requireCleanWorkingDir": false
+  },
   "github": {
-    "release": true
+    "release": false
+  },
+  "npm": {
+    "publish": true
   }
 }
